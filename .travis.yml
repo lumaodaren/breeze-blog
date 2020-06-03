@@ -1,15 +1,18 @@
-sudo: false 
+sudo: false
 language: node_js
- node_js: - 12
-  cache: npm 
-  branches: 
-  only: - master # build master branch only 
-  script: - hexo generate 
+node_js:
+ - 12
+ cache: npm
+ branches:
+  only:
+   - master # build master branch only
+  script:
+   - hexo generate
   deploy:
    provider: pages
-    skip-cleanup: true
-     github-token: $GH_TOKEN 
-     keep-history: true 
-     on:
-      branch: master
-       local-dir: public
+   skip-cleanup: true
+   github-token: $GH_TOKEN
+   keep-history: true
+   on:
+   branch: master
+   local-dir: public
