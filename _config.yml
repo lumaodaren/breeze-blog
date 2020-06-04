@@ -93,11 +93,11 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: matery
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: 'git'
-  # repo: git@github.com:lumaodaren/breeze-blog.git
+  repo: git@github.com:lumaodaren/breeze-blog.git
   branch: gh-pages
