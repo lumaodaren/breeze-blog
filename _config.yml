@@ -99,5 +99,5 @@ theme: matery
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: 'git'
-  repo: git@github.com:lumaodaren/breeze-blog.git
+  # repo: git@github.com:lumaodaren/breeze-blog.git
   branch: gh-pages
